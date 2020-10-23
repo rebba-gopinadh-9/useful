@@ -1,4 +1,4 @@
-mode.c
+# mode.c
 /* the code can be used for 
 arrays with only one mode.
 For the multimodal arrays 
@@ -8,3 +8,8 @@ in the sorted array .
 O(nlog n) or O( n^2) for quick sort 
 then O(n) for the linear search of 
 the mode in the array.*/
+
+# bitonic.c
+code for peak finding and identical
+binary search algorithm with each 
+O(log n) complexity .
