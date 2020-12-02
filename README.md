@@ -13,3 +13,7 @@ the mode in the array.*/
 code for peak finding and identical
 binary search algorithm with each 
 O(log n) complexity .
+
+# sudoku python
+A backtracking solution for solving sudoku 
+problems .
