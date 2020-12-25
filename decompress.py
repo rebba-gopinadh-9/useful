@@ -33,12 +33,18 @@ def f(s,st,en):
     while i< en :
         if isAlpha(s[i]):
             e=e+s[i]
-            i=i+1
-        elif isNum(s[i]):
-            k=findNext(s,i+1,en)
-            e=e+int(s[i])*f(s,i+2,k)
-            i=k+1
+        if isNum(s[i]):
+            t=0
+            j=i
+            while isNum(s[j]):
+                t=t*10+int(s[i])
+                j=j+1
+            i=j-1
+            p=findNext(s,i+1,en)
+            e=e+t*f(s,i+1,p)
+            i=p
+        i=i+1
     return e
 
-s="2[3[a]b]4[c]"
+s="15[11[a]b]40[c]"
 print(f(s,0,len(s)))
