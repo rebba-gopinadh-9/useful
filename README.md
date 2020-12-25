@@ -1,19 +1,20 @@
 # mode.c
-/* the code can be used for 
-arrays with only one mode.
-For the multimodal arrays 
-it gives the first mode it encounters 
-in the sorted array .
-
-O(nlog n) or O( n^2) for quick sort 
-then O(n) for the linear search of 
-the mode in the array.*/
+mode through sorting and counting .O(nlg n)
 
 # bitonic.c
-code for peak finding and identical
-binary search algorithm with each 
-O(log n) complexity .
+code for peak finding in O(lgN)
 
 # sudoku python
 A backtracking solution for solving sudoku 
 problems .
+
+# decompress 
+https://techdevguide.withgoogle.com/paths/advanced/compress-decompression/#!
+O(n) complexity .
+
+# infix to postfix 
+from infix to postfix expression using stack . 
+
+# postfix evaluation 
+evaluating postfix expression using stack .
+
